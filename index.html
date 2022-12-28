@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <a href="#">
+        <h1>
+          <img 
+            src="img/logo.png" 
+            alt="Dotinstall Walking"
+            width="240"
+            height="27">
+        </h1>
+      </a>
+      <a href="#" class="btn">ダウンロード</a>
+    </div>
+  </header>
+
+  <!-- ヒーローエリアの上に id を付けた空要素を作っていきましょう。
+  対応するtarget要素はmain jsの方にある -->
+  <div id="target"></div>
+
+  <!-- メディアクエリのためdescとpicのdivを設け格納している -->
+  <section class="hero">
+    <div class="container">
+      <div class="desc">
+        <h1>おさんぽアプリ</h1>
+        <p>毎日のお散歩を<br>もっと楽しくする</p>
+        <a href="#" class="btn">ダウンロード</a>
+      </div>
+      <div class="pic animate">
+        <img src="img/app.png" 
+        alt="アプリの動作イメージ"
+        width="320"
+        height="330">
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h1>すごい特徴</h1>
+      <div class="container">
+        <section class="animate slide-from-left">
+          <div class="pic">
+            <img src="img/feature1.png" alt="すごい特徴のイメージ">
+          </div>
+          <div class="desc">
+            <h2>すごい特徴</h2>
+            <p>すごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。</p>
+            <p>すごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。</p>
+          </div>
+        </section>
+        <section class="animate slide-from-right">
+          <div class="pic">
+            <img src="img/feature2.png" alt="すごい特徴のイメージ">
+          </div>
+          <div class="desc">
+            <h2>すごい特徴</h2>
+            <p>すごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。</p>
+            <p>すごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。</p>
+          </div>
+        </section>
+        <section class="animate slide-from-left">
+          <div class="pic">
+            <img src="img/feature3.png" alt="すごい特徴のイメージ">
+          </div>
+          <div class="desc">
+            <h2>すごい特徴</h2>
+            <p>すごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。</p>
+            <p>すごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。ごいです。</p>
+          </div>
+        </section>
+      </div>
+  </section>
+
+  <section class="voices">
+    <h1>ユーザの声</h1>
+    <div class="container">
+      <section class="animate">
+        <p>すばらいしいアプリ。すばらいしいアプリ。すばらいしいアプリ。すばらいしいアプリ。すばらいしいアプリ。すばらいしいアプリ。</p> 
+        <footer>
+          <img src="img/user1.png" 
+          alt="ユーザのアイコン"
+          width="40"
+          height="40">
+            <p>会社員(30)</p>
+          </img>
+        </footer>
+      </section>
+      <section class="animate delay">
+        <p>すばらいしいアプリ。</p> 
+        <footer>
+          <img src="img/user2.png" 
+          alt="ユーザのアイコン"
+          width="40"
+          height="40">
+            <p>会社員(30)</p>
+          </img>
+        </footer>
+      </section>
+      <section class="animate delay-more">
+        <p>すばらいしいアプリ。</p> 
+        <footer>
+          <img src="img/user3.png" 
+          alt="ユーザのアイコン"
+          width="40"
+          height="40">
+            <p>会社員(30)</p>
+          </img>
+        </footer>
+      </section>
+    </div>
+  </section>
+
+  <section class="call-to-action">
+    <h1>さあ、はじめてみよう！</h1>
+    <a href="#" class="btn">ダウンロード</a>
+  </section>
+
+  <footer class="copyright">
+    <small>
+      (c) dotinstall.com
+    </small>
+  </footer>
+
+  <!-- bootstrapのアイコン -->
+  <a href="#" id="to_top">
+    <i class="bi bi-arrow-up-square-fill"></i>
+  </a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
